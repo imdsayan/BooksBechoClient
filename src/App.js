@@ -6,9 +6,8 @@ class App extends Component{
 
     return(
 <div>
-<Home>
+<Home />
 
-</Home>
 </div>
     );
   }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import Toolbar from '../../components/UI/Toolbar/Toolbar';
 
 class Home extends Component{
     render(){
 
         return(
         <div>
-            <h2>---</h2>
-            <h3>Hello</h3>
+           <Toolbar />
         </div>
         );
     }
