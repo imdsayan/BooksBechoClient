@@ -1,16 +1,23 @@
 import React from 'react';
 import classes from './Toolbar.module.css'
-import ToolbarItems from './ToolbarItems/ToolbarItems';
-import * as constants from '../../../constants/MessageConstants'
+import Menu from './ToolbarItems/Menu/Menu';
+import Logo from './ToolbarItems/Logo/Logo';
+import SignIn from './ToolbarItems/SignIn/SignIn';
 
 
 const Toolbar = (props) => {
 
    return (
-    <ul className={classes.Toolbar}>   
-    <ToolbarItems isActive={false}>{constants.MENU}</ToolbarItems>
-    <ToolbarItems isActive={false}>{constants.LOGO}</ToolbarItems>
-    <ToolbarItems isActive={false}>{constants.SIGN_IN}</ToolbarItems>
+    <ul className={classes.Toolbar}>
+       <li className={classes.li}> 
+          <Menu />
+       </li>
+       <li className={classes.li}> 
+          <Logo />
+       </li>
+       <li style={{float:'right'}} className={classes.li}> 
+          <SignIn />
+       </li>
     
     </ul>
     );
