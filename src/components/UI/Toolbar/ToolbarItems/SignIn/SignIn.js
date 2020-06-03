@@ -4,8 +4,7 @@ import * as constants from '../../../../../constants/MessageConstants'
 const SignIn = (props) => {
   return (
     <div>
-   <a href="#abc">{constants.SIGN_IN}</a>
-
+   <label>{constants.SIGN_IN}</label>
     </div>
   );
 }

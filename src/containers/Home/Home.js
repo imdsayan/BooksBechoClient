@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Toolbar from '../../components/UI/Toolbar/Toolbar';
+import HomepageDesc from '../../components/UI/Carousel/HomepageDesc';
 
 class Home extends Component{
     render(){
@@ -7,6 +8,7 @@ class Home extends Component{
         return(
         <div>
            <Toolbar />
+           <HomepageDesc />
         </div>
         );
     }

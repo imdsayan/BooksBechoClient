@@ -5,7 +5,7 @@ import * as constants from '../../../../../constants/MessageConstants'
 const Menu =()=>{
 
     return(<div>
-   <a href="#abc">{constants.MENU}</a>
+   <label>{constants.MENU}</label>
     </div>
     );
 }

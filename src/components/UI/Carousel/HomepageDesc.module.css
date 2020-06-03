@@ -1,0 +1,13 @@
+.HomepageDesc{
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    background: rgb(34, 32, 32);
+}
+
+.HomepageDesc label{
+    display: block;
+    padding: 250px 0;
+    text-align: center;
+    color: rgb(28, 28, 153);
+}

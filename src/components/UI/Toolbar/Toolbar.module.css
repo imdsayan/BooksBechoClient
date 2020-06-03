@@ -10,7 +10,7 @@
     float: left;
 }
 
-.Toolbar a{
+.Toolbar label{
     display: block;
     color: white;
     text-align: center;
@@ -25,7 +25,7 @@
 
 
 }
-.Toolbar a:hover{
+.Toolbar label:hover{
     background-color: #111;
 }
 
